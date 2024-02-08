@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="marca">
+    <item>Seleccione marca</item>
+    <item>Azteca de oro</item>
+    <item>Jack Danels </item>
+    <item>Torres 10</item>
+    <item>Oso negro</item>
+    <item>Johnnie Walker Red Label</item>
+    <item>Bacardi</item>
+    <item>Smirnoff</item>
+    <item>Captain Morgan</item>
+    <item>Baileys</item>
+    <item>Buchanas</item>
+    <item>Rancho escondido</item>
+    <item> Tonayan</item>
+    <item>El jimador</item>
+    <item>Absolut</item>
+    <item>Jägermeister</item>
+
+</string-array>
+    <string-array name="tipo">
+        <item>Seleccione Tipo de alcohol</item>
+        <item>Wisky</item>
+        <item>Tequila</item>
+        <item>Vodka</item>
+        <item>Ron</item>
+        <item>Brandy</item>
+
+
+
+    </string-array>
+
+   <string-array name="procedencia">
+       <item>Pais</item>
+       <item>Bogota</item>
+       <item>Japon</item>
+       <item>Guatemala</item>
+       <item>China</item>
+       <item>EUA</item>
+       <item>Francia</item>
+       <item>México</item>
+   </string-array>
+
+    <string-array name="status">
+        <item>Status</item>
+        <item>Activo</item>
+        <item>Inactivo</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoplantilla"
+    tools:context=".ui.home.HomeFragment"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@style/CircularDeterminateProgressBar"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:progress="60" />
+
+
+    <TextView
+        android:id="@+id/id_Temperatura"
+        android:layout_width="190dp"
+        android:layout_height="108dp"
+        android:layout_alignEnd="@+id/progress_bar"
+        android:layout_alignBottom="@+id/progress_bar"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="-27dp"
+        android:layout_marginBottom="2dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#060A23"
+        android:textSize="15dp"
+        android:translationX="10dp"
+        tools:text="100%" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar2"
+        style="@style/CircularDeterminateProgressBar"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        android:translationX="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:progress="60" />
+
+
+    <TextView
+        android:id="@+id/id_Temperatura2"
+        android:layout_width="190dp"
+        android:layout_height="108dp"
+        android:layout_alignBottom="@+id/progress_bar2"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-148dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="169dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal"
+        android:text="60º"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#060A23"
+        android:textSize="15dp"
+        android:translationX="400dp" />
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="410dp"
+        android:layout_height="221dp"
+        android:orientation="vertical"
+
+        android:translationY="300dp" />
+
+</RelativeLayout>
